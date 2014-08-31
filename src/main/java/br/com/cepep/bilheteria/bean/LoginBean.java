@@ -19,7 +19,7 @@ public class LoginBean {
 	private String senha;
 	
 	public String autenticar(){
-		
+		//Alterando e adicionando um comentário
 		Usuario usr = SessionUtil.autenticarUsuario(usuario, senha);
 		
 		if(usr!=null){
